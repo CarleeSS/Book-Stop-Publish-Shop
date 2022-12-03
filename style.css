@@ -1,5 +1,6 @@
 body{
     background-image: url(Images/background-book.jpg);
+    background-size: contain;
 }
 header img{
     max-width: 30%;
@@ -58,12 +59,14 @@ h2{
     color: white;
     text-align: center;
     width: 50%;
+    margin-left: 7rem;
 }
 h3{
-    background-color: white;
-    color: rgb(46, 49, 146);
+    background-color: rgb(46, 49, 146);
+    color: white;
     text-align: center;
     width: 50%;
+    margin-left: 7rem;
 }
 form{
     color: rgb(46, 49, 146);
@@ -92,6 +95,49 @@ img{
 .companies h4{
     color: rgb(0, 130, 195);
 }
+.companies h3{
+    width: 90%;
+}
+.blog h3{
+    width: auto;
+    color: rgb(0, 130, 195);
+    background-color: white;
+    margin: 1rem;
+    text-align: center;
+}
+input{
+    text-align: center;
+}
 @media (min-width: 1200px){
-
+    header>h1{
+        background-color: white;
+        padding: 1rem;
+        text-align: center;
+        width: 50%;
+        display: inline-block;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    h2, h3{
+        width: 20%;
+        margin-left: 30rem;
+    }
+    .blog h3{
+        width: 50%;
+        margin-left: 17rem;
+    }
+    img{
+        max-width: 30%;
+        width: 30%;
+    }
+    .about h4 p{
+        width: 10%;
+    }
+    .fiction ul{
+        width: 20%;
+    }
+    .nonfiction ul{
+        width: 20%;
+    }
 }
