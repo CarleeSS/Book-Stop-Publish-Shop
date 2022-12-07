@@ -36,7 +36,8 @@ nav a:hover{
     color: white;
 }
 nav a:visited{
-    color: orange;
+    background-color: rgb(223, 123, 37);
+    color: white;
 }
 nav a{
     background-color: white;
@@ -89,7 +90,7 @@ img{
     max-width: 100%;
     width: 100%;
 }
-.about>h4{
+.about h4{
     color: rgb(46, 49, 146);
     width: 80%;
     padding: .5rem;
@@ -129,6 +130,9 @@ input[type=search]{
     margin: 2rem auto;
 }
 @media (min-width: 1200px){
+    header{
+        padding-top: 1rem;
+    }
     header>h1{
         background-color: white;
         padding: 1rem;
@@ -173,5 +177,8 @@ input[type=search]{
         max-height: 100%;
         width: unset;
         justify-self: flex-end;
+    }
+    .about p{
+        height: 5rem;
     }
 }
