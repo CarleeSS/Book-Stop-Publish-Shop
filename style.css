@@ -83,9 +83,12 @@ h3{
     width: 50%;
     margin-left: 7rem;
 }
+h4{
+    text-decoration: underline;
+}
 form{
     color: rgb(46, 49, 146);
-    margin: 1rem;
+    margin: 2rem;
     padding: 1rem;
 }
 img{
@@ -98,7 +101,7 @@ img{
     padding: .5rem;
     margin: .5rem;
 }
-.about>p{
+.about p{
     color: rgb(46, 49, 146);
 }
 .about>img{
@@ -108,15 +111,15 @@ img{
 }
 .editors h4{
     color: rgb(0, 130, 195);
+    margin-left: 3rem;
 }
 .agents h4{
     color: rgb(0, 130, 195);
+    margin-left: 3rem;
 }
 .companies h4{
     color: rgb(0, 130, 195);
-}
-.companies h3{
-    width: 90%;
+    margin-left: 3rem;
 }
 .blog h3{
     width: auto;
@@ -131,6 +134,19 @@ input[type=search]{
     height: 2rem;
     margin: 2rem auto;
 }
+input[type=submit]{
+    max-width: 10rem;
+    margin: auto;
+}
+.fiction ul{
+    max-width: 10rem;
+    margin: auto;
+}
+.nonfiction ul{
+    max-width: 10rem;
+    margin: auto;
+}
+
 @media (min-width: 1200px){
     header{
         padding-top: 1rem;
@@ -222,11 +238,15 @@ input[type=search]{
         margin: auto;
     }
     form{
-        max-width: 50rem;
+        max-width: 40rem;
         margin: auto;
     }
     .companies h4{
         max-width: 50rem;
+        margin: 2rem auto;
+    }
+    .companies h3{
+        max-width: 35rem;
         margin: 2rem auto;
     }
 }
