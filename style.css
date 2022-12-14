@@ -113,6 +113,27 @@ img{
     color: rgb(0, 130, 195);
     margin-left: 3rem;
 }
+.editors{
+    display: none;
+}
+.editors.show{
+    display: block;
+}
+.editors-open, .agents-open, .companies-open{
+    cursor: pointer;
+}
+.agents{
+    display: none;
+}
+.agents.show{
+    display: block;
+}
+.companies{
+    display: none;
+}
+.companies.show{
+    display: block;
+}
 .agents h4{
     color: rgb(0, 130, 195);
     margin-left: 3rem;
@@ -128,6 +149,13 @@ img{
     margin: 1rem;
     text-align: center;
 }
+.name>label{
+    color: rgb(0, 130, 195);
+}
+.address{
+    max-width: 30%;
+    margin: 1rem auto;
+}
 input[type=search]{
     display: block;
     width: 25rem;
@@ -141,10 +169,12 @@ input[type=submit]{
 .fiction ul{
     max-width: 10rem;
     margin: auto;
+    list-style: none;
 }
 .nonfiction ul{
     max-width: 10rem;
     margin: auto;
+    list-style: none;
 }
 
 @media (min-width: 1200px){
